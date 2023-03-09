@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="form-container">
+      <form class="form">
+        <select name="cat-skill">
+          <option value="">Select a Cat Skill</option>
+          <option value="Agility and Coordination">
+            Agility and Coordination
+          </option>
+          <option value="Hunting and Predatory Skills">
+            Hunting and Predatory Skills
+          </option>
+          <option value="Communication">Communication</option>
+          <option value="Adaptability">Adaptability</option>
+          <option value="Independence">Independence</option>
+          <option value="Affection and Socialization">
+            Affection and Socialization
+          </option>
+          <option value="Climbing">Climbing</option>
+          <option value="Balance">Balance</option>
+          <option value="Senses">Senses</option>
+          <option value="Flexibility">Flexibility</option>
+          <option value="Problem-solving">Problem-solving</option>
+          <option value="Stealth">Stealth</option>
+        </select>
+
+        <div>
+          <label for="today-score">Enter the new score(today)</label>
+          <input type="number" id="today-score" min="1" max="100" />
+        </div>
+        <div>
+          <label for="future-score">Enter the new score(future)</label>
+          <input type="number" id="future-score" min="1" max="100" />
+        </div>
+
+        <button class="btn">Get Rank</button>
+      </form>
+
+      <p class="p1"></p>
+      <p class="p2"></p>
+    </div>
+  </body>
+</html>
